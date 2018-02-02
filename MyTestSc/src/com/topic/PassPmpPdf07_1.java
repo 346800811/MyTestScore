@@ -3,7 +3,7 @@ package com.topic;
 import com.BaseTest;
 
 /**
- * 成功通过PMP-PDF（P169~）
+ * 成功通过PMP-PDF（P169~177）
  * 
  * @author JianDe
  */
