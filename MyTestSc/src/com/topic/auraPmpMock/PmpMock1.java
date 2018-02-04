@@ -1,7 +1,12 @@
-package com.topic;
+package com.topic.auraPmpMock;
 
-import com.BaseTest;
+import com.base.BaseTest;
 
+/**
+ * 光环HD1801班1模
+ * 
+ * @author JianDe
+ */
 public class PmpMock1 extends BaseTest {
 	public PmpMock1(String result) {
 		super("CDBBBBABABCABBABADABCADAABCDCBABCDBBABABBAABBBADCCBDBAACDACDCCDDBBABBAAABABACACAACAACBDCADCACDCABCBBDCADAACABAADCCDACCCCBDCCBCDBACBBCBBACBABDDBACCDDDBBABAACCAACBDCCCBCBACADBDDBADCADABDCBABABCBBCCACCDC");

@@ -1,9 +1,9 @@
-package com.topic;
+package com.topic.passPmpPdf;
 
-import com.BaseTest;
+import com.base.BaseTest;
 
 /**
- * ³É¹¦Í¨¹ıPMP-PDF£¨P177~1£©
+ * æˆåŠŸé€šè¿‡PMP-PDFï¼ˆP177~1ï¼‰
  * 
  * @author JianDe
  */

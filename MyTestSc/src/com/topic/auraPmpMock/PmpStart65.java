@@ -1,6 +1,6 @@
-package com.topic;
+package com.topic.auraPmpMock;
 
-import com.BaseTest;
+import com.base.BaseTest;
 
 public class PmpStart65 extends BaseTest {
 	public PmpStart65(String result) {
