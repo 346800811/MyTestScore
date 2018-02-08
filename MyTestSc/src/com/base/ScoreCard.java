@@ -47,7 +47,7 @@ public class ScoreCard {
 
     /* 计算得分 */
     private void calcScore() {
-        this.score = couTue * 1.0 / couTeam;
+        this.score = couTue * 100.0 / couTeam;
         this.score = Double.parseDouble(String.format("%.3f", score));
     }
 
@@ -55,7 +55,7 @@ public class ScoreCard {
     public void printResult() {
         System.out.println("true : " + getCouTue());
         System.out.println("false: " + getCouFal());
-        System.out.println("score: " + (getScore() * 100) + "%");
+        System.out.println("score: " + getScore() + "%");
         System.out.println("----------------------------------------");
     }
 
