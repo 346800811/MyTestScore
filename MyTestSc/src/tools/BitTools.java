@@ -1,4 +1,4 @@
-package algorithm;
+package tools;
 
 /**
  * 位运算
