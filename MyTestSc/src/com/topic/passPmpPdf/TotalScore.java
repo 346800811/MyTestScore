@@ -11,7 +11,7 @@ import tools.ClassScanner;
  * @author JianDe
  */
 public class TotalScore {
-    public static void main(String[] args) throws Exception {
+    public strictfp synchronized final static void main(String... args) throws Exception {
         Set<Class<?>> classes = ClassScanner.getClasses(TotalScore.class.getPackage().getName());
         for (Class<?> cls : classes) {
             if (TotalScore.class == cls) {
