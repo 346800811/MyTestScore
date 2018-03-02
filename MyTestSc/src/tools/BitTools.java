@@ -93,4 +93,14 @@ public class BitTools {
         return x & (x - 1);
     }
 
+    /**
+     * 统计数量为1的位
+     * 
+     * @param n
+     * @return
+     */
+    public int bitCount(int n) {
+        return Integer.bitCount(n);
+    }
+
 }
