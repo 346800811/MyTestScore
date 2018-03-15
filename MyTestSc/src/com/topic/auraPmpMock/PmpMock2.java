@@ -3,7 +3,7 @@ package com.topic.auraPmpMock;
 import com.base.BaseTest;
 
 /**
- * 光环HD1801班1模
+ * 光环HD1801班2模
  * 
  * @author JianDe
  */
