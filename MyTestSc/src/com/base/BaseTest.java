@@ -7,6 +7,11 @@ public abstract class BaseTest {
     /* 正确答案（连续大写的ABCD） */
     private char[] result;
 
+    /** 无参构造函数，没什么卵用甚至抛异常 */
+    public BaseTest() {
+        throw new RuntimeException();
+    }
+
     /** 使用正确答案构造对象 */
     public BaseTest(String result) {
         this.result = result.toCharArray();
@@ -37,7 +42,7 @@ public abstract class BaseTest {
                 }
             }
         }
-        System.out.println(sb);
+//        System.out.println(sb);
         System.out.println("false:" + fQ);
         sc.printResult();
     }

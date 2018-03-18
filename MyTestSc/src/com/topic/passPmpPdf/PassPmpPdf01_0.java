@@ -8,12 +8,12 @@ import com.base.BaseTest;
  * @author JianDe
  */
 public class PassPmpPdf01_0 extends BaseTest {
-    public PassPmpPdf01_0(String result) {
+    public PassPmpPdf01_0() {
         super("");
     }
 
     public static void main(String[] args) {
-        BaseTest pm1 = new PassPmpPdf01_0(null);
+        BaseTest pm1 = new PassPmpPdf01_0();
         pm1.test(""); // 2018-01-01
     }
 

@@ -8,7 +8,7 @@ import com.base.BaseTest;
  * @author JianDe
  */
 public class PmpEndMock1 extends BaseTest {
-    public PmpEndMock1(String result) {
+    public PmpEndMock1() {
         super("DDDDDDDCCCCCCCCCCBBBBBAAAAAADCCACCCCBBBBBBACCCBCAC"
                 + "CADADDDDBCBDACDBDDDBDDCABCABACACACBDAADADDBBBBCBDD"
                 + "CBCBBDADBABBDAABBCACCACDCCACCBBADCDDAAAACCABCDCDBD"
@@ -18,7 +18,7 @@ public class PmpEndMock1 extends BaseTest {
     }
 
     public static void main(String[] args) {
-        PmpEndMock1 pm1 = new PmpEndMock1(null);
+        PmpEndMock1 pm1 = new PmpEndMock1();
         System.out.println("2018-03-17");
         String re1 = "DDDDDBDCCCCCCCCCCBBBBBBAAAAADCCBCCBCDBBBBBACCCCCAC "
                 + "AABCADDDBCBDACDBDDDBDDCABCDBACACDCBDAAAADDDBCBAADD " + "CBCBD";

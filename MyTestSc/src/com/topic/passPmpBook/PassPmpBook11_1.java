@@ -10,13 +10,13 @@ import com.base.BaseTest;
  * @author JianDe
  */
 public class PassPmpBook11_1 extends BaseTest {
-    public PassPmpBook11_1(String result) {
+    public PassPmpBook11_1() {
         super("DDBDBACCDCADBABADDAD");
     }
 
     public static void main(String[] args) {
         System.out.println(args.length);
-        BaseTest pm1 = new PassPmpBook11_1(null);
+        BaseTest pm1 = new PassPmpBook11_1();
         pm1.test("DDBDB ACCDC ADBAB ADDAD"); // 2018-02-05 06:30 全对啦！666
     }
 
