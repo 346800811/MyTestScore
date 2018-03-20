@@ -15,8 +15,9 @@ public class PmpEndMock2 extends BaseTest {
 
     public static void main(String[] args) {
         PmpEndMock2 pm1 = new PmpEndMock2();
-        System.out.println("2018-03-18");
-        String re1 = "" + " " + "";
+        System.out.println("2018-03-20");
+        String re1 = "ADABDACABBCBACBACDBBBBBCBDDDCABCABAADDCADABCABAADC "
+                + "CDBBABADAAACABCCDCDDCADBBBDBDAABABBCDDACCACBDBDABD " + "DACCACADBBADCDDDCAAADADADBCDBABBCDD";
         pm1.test(re1);
     }
 
