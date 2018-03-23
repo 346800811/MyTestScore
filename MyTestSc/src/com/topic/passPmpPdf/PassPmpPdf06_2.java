@@ -8,14 +8,15 @@ import com.base.BaseTest;
  * @author JianDe
  */
 public class PassPmpPdf06_2 extends BaseTest {
-	public PassPmpPdf06_2() {
-		super("BDCBBCDCCDBCCBCBBAAC");
-	}
+    public PassPmpPdf06_2() {
+        super("BDCBBCDCCDBCCBCBBAAC");
+    }
 
-	public static void main(String[] args) {
-		BaseTest pm1 = new PassPmpPdf06_2();
-		pm1.test("BDBBA CCCCD BACAC ABADA"); // 2018-02-02
-	}
+    public static void main(String[] args) {
+        BaseTest pm1 = new PassPmpPdf06_2();
+        pm1.test("BDBBA CCCCD BACAC ABADA"); // 2018-02-02
+        pm1.test("ADCBB CCCCD BDCAC AAAAC"); // 2018-03-22
+    }
 
 }
 /*
@@ -34,4 +35,13 @@ public class PassPmpPdf06_2 extends BaseTest {
  * 19．答案：A。因为项目的变更发生在项目各处并以持续不断的方式进行，所有对项目变更的控制也是如此。
  * 
  * 20．答案：C。项目执行期间发生的风险无法在计划阶段识别。
+ * 
+ * ******
+ * 
+ * 1．答案：B（评估后再做决策）。尽管管理层负责项目的资源供给，这种职责指的是资源的量或可用性，但是资源冲突是项目管理中一种严重的冲突。
+ * 选项C、D是一种备选方案，不具有代表性。
+ * 
+ * 17．答案：B。责任分配矩阵负责管理每项活动由谁负责。项目进度负责管理每个活动什么时间完成。
+ * 工作授权系统是用来协调何时以及以何种顺序执行工作，以便于工作和人们可能正确地对接其他工作和其他的人。
+ * 
  */
